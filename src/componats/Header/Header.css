@@ -1,0 +1,23 @@
+header{
+ background-image: url("../../../public/img/bg.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.layout {
+ background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+.header-inner{
+ height: 80%;
+}
+
+h1{
+ font-weight: 700 !important;
+ font-size: 36px !important;
+ line-height: 47px !important;
+}
+
+ .header-inner p{
+ font-weight: 400 !important;
+ font-size: 18px !important;
+ line-height: 23px !important;
+} 

@@ -1,0 +1,50 @@
+.navbar-toggler{
+ font-style: normal;
+ padding: .7rem .5rem !important;
+ background-color: transparent;
+}
+
+.serch::placeholder{
+ font-size: .5rem;
+}
+.navbar-brand{
+ font-size: 1.5rem !important;
+ font-weight: 300;
+ 
+}
+
+.navbar-brand span{
+ color: #27A365;
+}
+ .register-link{
+  color: #2E2E2E;
+}
+ .register-link span{
+ color: #2F6CE5;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.hide{
+ display: none !important;
+}
+.navbar{
+ background-color: transparent;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+ .navbar{
+  background-color: transparent;
+ }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 992px) {
+  .navbar{
+   background-color:#fff;
+  }
+} 

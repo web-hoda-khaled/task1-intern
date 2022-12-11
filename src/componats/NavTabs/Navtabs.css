@@ -1,0 +1,34 @@
+#nav-home-tab ,#nav-education-tab , #nav-contact-tab ,#nav-profile-tab ,#nav-job-tab ,#navsFillter{
+ border-bottom: 1px solid #E0E0E0 !important;
+ color:#8A8A8A;
+ transition: all .5s;
+ -webkit-transition: all .5s;
+ -moz-transition: all .5s;
+ -ms-transition: all .5s;
+ -o-transition: all .5s;
+}
+#nav-home-tab:focus ,#nav-education-tab:focus , #nav-contact-tab:focus ,#nav-profile-tab:focus ,#navsFillter:focus,#nav-job-tab:focus{
+ border-bottom: 1px solid #000000 !important;
+ color:#000000;
+}
+
+.btn-post {
+ 
+background: #EDEEF0;
+border-radius: 4px;
+border: unset;
+}
+.btn-post:focus {
+ border: unset;
+ }
+.btn-join{
+ background: #2F6CE5!important;
+ border-radius: 4px !important;
+ }
+ 
+ .side-top{
+  color: #000000;
+ }
+ .side-bottom{
+  color: #888b8f;
+ }
